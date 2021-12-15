@@ -14,6 +14,10 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | [`DateTimeFormat` `dateStyle` & `timeStyle`][datetimeformat]                                 | Zibi Braniecki                       | Zibi Braniecki                       | [July 2020][datetimeformat-notes]                                 | 2021              |
 | [Intl.DisplayNames][proposal-intl-displaynames]                                              | Frank Tang                           | Frank Tang                           | [September 2020][proposal-intl-displaynames-notes]                | 2021              |
 | [`Intl.DateFormat.prototype.formatRange`][formatrange]                                       | Felipe Balbontín                     | Sathya Gunasekaran                   | January&nbsp;2021                                                 | 2021              |
+| [`Intl.Segmenter`: Unicode Segmentation in JavaScript][intl-segmenter]                       | Daniel Ehrenberg, Richard Gibson     | Richard Gibson                       | October&nbsp;2021                                                 | 2022              |
+| [Extend TimeZoneName Option Proposal][extend-timezonename]                                   | FrankYFTang                          | FrankYFTang                          | December&nbsp;2021                                                | 2022              |
+| [`Intl.DisplayNames v2`][intl.displaynames-v2]                                               | Frank Tang                           | Frank Tang                           | December&nbsp;2021                                                | 2022              |
+
 
 See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](README.md) documents.
 
@@ -37,3 +41,8 @@ See also the [stage 0 proposals](stage-0-proposals.md), and [active proposals](R
 [proposal-intl-displaynames-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-22.md#intldisplaynames-for-stage-4
 [formatrange]: https://github.com/tc39/proposal-intl-DateTimeFormat-formatRange
 [formatrange-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-03/mar-26.md#intldatetimeformatprototypeformatrange-for-stage-3
+[intl-segmenter]: https://github.com/tc39/proposal-intl-segmenter
+[intl-segmenter-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-07/july-21.md#intlsegmenter-for-stage-3
+[extend-timezonename]: https://github.com/tc39/proposal-intl-extend-timezonename
+[intl.displaynames-v2]: https://github.com/tc39/intl-displaynames-v2
+[intl.displaynames-v2-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2020-09/sept-23.md#intldisplaynames-v2-for-stage-1

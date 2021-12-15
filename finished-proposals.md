@@ -45,6 +45,11 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 | Class Fields ([Private instance methods and accessors][private-methods], [Class Public Instance Fields & Private Instance Fields][class-fields], [Static class fields and private static methods][static-class-features]) | Daniel Ehrenberg | Daniel Ehrenberg<br />Kevin Gibbons | [April 2021][class-fields-notes] | 2022 |
 | [RegExp Match Indices][regex-match-indices]                              | Ron Buckton                                            | Ron Buckton                                             | [May 2021][regex-match-indices-notes]       | 2022                      |
 | [Top-level `await`][await]                                               | Myles Borins<br />Yulia Startsev<br />Daniel Ehrenberg<br />Guy Bedford<br />Ms2ger | Myles Borins<br />Yulia Startsev | [May 2021][await-notes]               | 2022                      |
+| [Ergonomic brand checks for Private Fields][private-fields-in-in]        | Jordan Harband                                         | Jordan Harband                              | <sub>[July&nbsp;2021][private-fields-in-in-notes]</sub> | 2022                      |
+| [`.at()`][at]                                                            | Shu-yu Guo<br />Tab Atkins                             | Shu-yu Guo<br />Tab Atkins                  | <sub>[August&nbsp;2021][at-notes]</sub>                 | 2022                      |
+| [Accessible `Object.prototype.hasOwnProperty`][object-has]               | Jamie Kyle                                             | Tierney Cyren<br />Jamie Kyle               | <sub>[August&nbsp;2021][object-has-notes]</sub>         | 2022                      |
+| [Class Static Block][static-blocks]                                      | Ron Buckton                                            | Ron Buckton                                 | <sub>[August&nbsp;2021][static-blocks-notes]</sub>      | 2022                      |
+| [Error Cause][error-cause]                                               | Chengzhong Wu                                          | Chengzhong Wu<br /> Hemanth HM              | <sub>[October&nbsp;2021][error-cause-notes]</sub>       | 2022                      |
 
 See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposals.md), [stage 0 proposals](stage-0-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -132,3 +137,13 @@ See also the [active proposals](README.md), [stage 1 proposals](stage-1-proposal
 [regex-match-indices-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#regexp-match-indices
 [await]: https://github.com/tc39/proposal-top-level-await
 [await-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#top-level-await
+[private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
+[private-fields-in-in-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-07/july-14.md#ergonomic-brand-checks-for-stage-4
+[at]: https://github.com/tc39/proposal-relative-indexing-method
+[at-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#relative-indexing-at-method-for-stage-4
+[object-has]: https://github.com/tc39/proposal-accessible-object-hasownproperty
+[object-has-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#accessible-object-hasownproperty-for-stage-4
+[static-blocks]: https://github.com/tc39/proposal-class-static-block
+[static-blocks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-08/aug-31.md#class-static-initialization-blocks-for-stage-4
+[error-cause]: https://github.com/tc39/proposal-error-cause
+[error-cause-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-10/oct-26.md#error-cause-for-stage-4
